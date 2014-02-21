@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Css3 animations 1</title>
+	<link rel="stylesheet" href="css/screen.css" media="all" />
+
+</head>
+<body>
+	
+	<div id="circle1"></div>
+	<div id="circle2"></div>
+	<div id="circle3"></div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+	<script>
+		$(document).ready(function() {
+			$( "#circle3" ).on("click",function() {
+				$( "#circle1" ).addClass( "animation1" );
+				$( "#circle2" ).addClass( "animation2" );
+				$( "#circle3" ).addClass( "animation3" );
+			});
+		});
+	</script>
+</body>
+</html>

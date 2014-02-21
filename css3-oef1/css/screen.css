@@ -1,0 +1,47 @@
+#circle1{
+width:30px;
+height:30px;
+border-radius:50%;
+background-color:red;
+position:absolute;
+}
+#circle2{
+width:30px;
+height:30px;
+border-radius:50%;
+background-color:green;
+position:absolute;
+}
+#circle3{
+width:30px;
+height:30px;
+border-radius:50%;
+background-color:yellow;
+position:absolute;
+}
+.animation1
+{
+-webkit-animation: move1 1s;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes move1
+{
+100% { -webkit-transform: translateX(75px);}
+}
+.animation2
+{
+-webkit-animation: move2 1s;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes move2
+{
+100% { -webkit-transform: translateX(75px) translateY(75px);}
+}.animation3
+{
+-webkit-animation: move3 1s;
+-webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes move3
+{
+100% { -webkit-transform: translateY(75px);}
+}
