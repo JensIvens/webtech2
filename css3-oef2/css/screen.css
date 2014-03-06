@@ -1,9 +1,9 @@
 body{
-background-color:#2B98FF;
+background-color:#474343;
 }
 #banner{
 border-radius:25px;
-background-color:#FFFFF7;
+background-color:#F7F7F7;
 width:400px;
 margin-left:auto;
 margin-right:auto;
@@ -81,4 +81,5 @@ border-radius:10%;
 }
 .imgmove:hover{
 -webkit-transform: scale(1.2);
+cursor: pointer;
 }

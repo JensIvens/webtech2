@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Tahoma;
+}
+#wrapper{
+
+	width:100%;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:35px;
+}
+h1{
+
+	font-size: 26pt;
+	padding-bottom: 75px;
+	text-align: center;
+	font-weight: bolder;
+}
+ul li{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	background-color: green;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 13pt;
+	-webkit-transition:All 0.1s ease-in;
+	-webkit-transform: scale(1);
+}
+ul li:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.02);
+
+}
+.prior-high{
+	background-color: #FF0000;
+}
+.prior-normal{
+	background-color: #58F00C;
+}
+.prior-low{
+	background-color: #0013FF;
+}
+.done{
+	text-decoration: line-through;
+	}
