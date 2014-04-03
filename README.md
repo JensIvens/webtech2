@@ -3,8 +3,8 @@
 ---
 
 * Lab 1:    Introduction GIT
-* Lab 2:	Advanced CSS3 (animations) 'done'
-* Lab 3:	Advanced JavaScript 'done'
+* Lab 2:	Advanced CSS3 (animations) 
+* Lab 3:	Advanced JavaScript 
 * Lab 4:	Build Apps v1 with the Forecast api.
 * Lab 5:	Build Apps v2
 * Lab 6:	Nodejs
