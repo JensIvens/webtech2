@@ -7,7 +7,7 @@
 * Lab 3:	Advanced JavaScript 
 * Lab 4:	Build Apps v1 with the Forecast api.
 * Lab 5:	Build Apps v2
-* Lab 6:	Nodejs
+* Lab 6:	Node.js
 
 ---
 
@@ -51,7 +51,7 @@ In the Lab5 folder you will find my attempt. This assignment also required the u
 ---
 
 >##Lab 6
-Introduction to Nodejs, Express and Web sockets
+Introduction to Node.js, Express and Web sockets
 
 Build an interactive application. 
 
