@@ -5,9 +5,8 @@
 * Lab 1:    Introduction GIT
 * Lab 2:	Advanced CSS3 (animations) 
 * Lab 3:	Advanced JavaScript 
-* Lab 4:	Build Apps v1 with the Forecast api.
-* Lab 5:	Build Apps v2
-* Lab 6:	Node.js
+* Lab 4:	Building Apps with the Forecast api.
+* Lab 5:	Node.js
 
 ---
 
@@ -42,15 +41,7 @@ In the Lab4 folder you will find a weather app prototype, using the forecast.io 
 
 ---
 
-
 >##Lab 5
-Building an app for We Are IMD: **Terrappke**
-
-In the Lab5 folder you will find my attempt. This assignment also required the use of the forecast api.
-
----
-
->##Lab 6
 Introduction to Node.js, Express and Web sockets
 
 Build an interactive application. 
