@@ -1,0 +1,16 @@
+extends layout
+
+block content
+ div(id="intro")
+  h1= title
+  p Welcome to #{title}
+ div(id="options")
+  ul
+   li
+    a(href="#" data-id="fanta") Fanta
+   li
+    a(href="#" data-id="wodka") Wodka
+   li
+    a(href="#" data-id="bier") Bier
+   li
+    a(href="#" data-id="water") Water
