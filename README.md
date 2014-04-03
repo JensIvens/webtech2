@@ -1,6 +1,5 @@
 #Webtech 2 Labs
 
----
 
 * Lab 1:    Introduction GIT
 * Lab 2:	Advanced CSS3 (animations) 
@@ -8,7 +7,6 @@
 * Lab 4:	Building Apps with the Forecast api.
 * Lab 5:	Node.js
 
----
 
 >##Lab 1
 Introduction GIT
@@ -33,16 +31,14 @@ In the Lab3 folder you will find a todo app, powered by a custom JS Framework. I
 ---
 
 >##Lab 4
-Building an app prototype using forecast.io.
-
+Building a weather app using forecast.io.
 
 In the Lab4 folder you will find a weather app prototype, using the forecast.io API.
-
 
 ---
 
 >##Lab 5
-Introduction to Node.js, Express and Web sockets
+Introduction to Node.js
 
 Build an interactive application. 
 
