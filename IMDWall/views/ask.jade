@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  #content
+    #questions
+        
+    #ask
+        p.questionHeader
+            |ASK A QUESTION
+        ul#form
+            li: input#nameField(type="text", placeholder="Name")
+            li: textarea(name='questionField', id='questionField', placeholder="your question", maxlength="100", rows="3" )
+            li: p.errorMessage 
+            li: input#submitQuestion(type="submit", value="Speak up")
