@@ -8,12 +8,11 @@ $(document).ready(function(){
 				timeout: 2000
 	});
 
-//	Clients should subscribe to channels using the #subscribe() method:		
-	   var subscriptionAsk = client.subscribe('/ask', function(message) {
-        var currentDateTime = new Date();
-        var currentdate = createDateStringOnlyTime(currentDateTime);
-
-        
+//	Clients subscribe using the #subscribe() method:		
+    var subscriptionAsk = client.subscribe('/ask', function(message) {
+    var currentDateTime = new Date();
+    var currentdate = createDateStringOnlyTime(currentDateTime);
+    
     var newQuestion =   "<li class='listitem'><pre><p class='bg-primary'>" + message.user + " asks: </p>"
                         + "<blockquote><p>" + message.chat  + "</p>"
                         + "<footer class='date'>" + currentdate + "</footer></blockquote>"
@@ -45,11 +44,10 @@ $(document).ready(function(){
 			var publicationAsk = client.publish('/ask', {chat : chatMessage, user : chatUser});
             $('#questionField').val("");
             $('#nameField').val("");
-            $('.charactersLeft').html('100 characters remaining');
     	}
     	else
     	{
-    		$(".errorMessage").text("You must fill in both your name and a question!") ;
+    		$(".errorMessage").text("Give us a name and a question!") ;
     		$(".errorMessage").css('display','block');
     	}
 

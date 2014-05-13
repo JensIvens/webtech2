@@ -8,13 +8,13 @@ var routes = require('./routes');
 var ask = require('./routes/ask');
 var user = require('./routes/user');
 var questions = require('./routes/questions');
+var moderate = require ('./routes/moderate');
 var http = require('http');
 var path = require('path');
 var faye = require('faye');
 
 var app = express();
 
-// all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -35,6 +35,7 @@ app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/ask', ask.ask);
 app.get('/questions', questions.questions);
+app.get('/moderate', moderate.moderate);
 
 var server = http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
