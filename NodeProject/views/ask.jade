@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div.container
+    h1 IMDWall - Ask 
+    #questions
+        
+    #ask
+        ul
+            form(role='form')
+                .form-group
+                    label(for='nameField') Name:
+                    input#nameField.form-control(type='text', name='nameField', placeholder='Name:')
+                .form-group
+                    label(for='exampleInputPassword1') Question:
+                    input#questionField.form-control(type='text', placeholder='Question')
+                input#submitQuestion.btn.btn-primary(type='submit')

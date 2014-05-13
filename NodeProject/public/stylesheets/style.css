@@ -1,0 +1,60 @@
+body
+{
+	background-color: #2f323a;
+}
+header
+{
+	margin-bottom:50px;
+	padding: 15px 0px;
+	text-align: center;
+}
+header.bg-primary
+{
+	width: 100%;
+}
+div.container a.ask:link,
+div.container a.ask:active,
+div.container a.ask:visited
+{
+	display: block;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:white;
+	text-align: center;
+
+}
+div.container a.ask:hover
+{
+	background-color: #171a1f;
+}
+
+div.container ul.home li{
+	background-color: #1f2229;
+	width: 250px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	border-radius: 3px;
+}
+footer.date
+{
+	margin-top: 0px;
+}
+footer
+{
+	width: 100%;
+	background-color: white;
+	margin-top: 100px;
+}
+footer img 
+{
+	display: block;
+	width: 150px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+}
