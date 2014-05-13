@@ -65,6 +65,7 @@ passport.deserializeUser(function(obj, done) {
 
 app.get('/ask', function(req, res, next) {
   res.send('Successfully logged in.');
+  	console.log(req)
 });
  
 app.get('/error', function(req, res, next) {
