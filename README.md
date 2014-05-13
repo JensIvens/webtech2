@@ -43,6 +43,14 @@ Introduction to Node.js
 Build an interactive application. 
 
 ---
+
+>##Project Webtech - IMDWall
+Node.js application
+
+Build an interactive application.
+Create an application that gives people the possibility to ask something to the speaker.
+
+---
 ---
 
 	
