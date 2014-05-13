@@ -28,7 +28,10 @@ div.container a.ask:hover
 {
 	background-color: #171a1f;
 }
-
+div.container #ask form label
+{
+	color: white;
+}
 div.container ul.home li{
 	background-color: #1f2229;
 	width: 250px;
