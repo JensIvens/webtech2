@@ -13,19 +13,33 @@ $(document).ready(function(){
     var currentDateTime = new Date();
     var currentdate = createDateStringOnlyTime(currentDateTime);
     
-    var newQuestion =   "<li class='listitem'><pre><p class='bg-primary'>" + message.user + " asks: </p>"
+    var newQuestionMod =   "<li class='listitem'><pre><p class='bg-primary'>" + message.user + " asks: </p>"
                         + "<blockquote><p>" + message.chat  + "</p>"
                         + "<footer class='date'>" + currentdate + "</footer></blockquote>"
-                        + "<a href='#' class='rmvItem'>Delete</a></pre></li>"
+                        + "<a href='#' class='rmvItem'>Delete</a></pre></li>";
+    var likes = 0;
+    var newQuestionLike =   "<li class='listitem'><pre><p class='bg-primary'>" + message.user + " asks: </p>"
+                        + "<blockquote><p>" + message.chat  + "</p>"
+                        + "<footer class='date'>" + currentdate + "</footer></blockquote>"
+                        + "<a class='voteUp pull-left' href='#'><span class='glyphicon glyphicon-thumbs-up'>" + likes + "</span></a></pre></li>";
 
 
         messagesIds.push("message"+messageId);
         messageId++;
         previousChatTime = currentDateTime;
 
-        $("#questions").prepend(newQuestion);
+        $("#questionsDelete").prepend(newQuestionMod).hide().slideDown();
+        $("#questionsLike").prepend(newQuestionLike).hide().slideDown();
+
+        $('span.glyphicon').on('click', function(){
+            $(this).html(likes++);
+        });
+
         $('.rmvItem').on('click', function(e){
-        $(this).parent().parent().remove();
+            $(this).parent().parent().slideUp(function(){
+                $(this).remove();
+
+            });
     });
 	
     }); 
