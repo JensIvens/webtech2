@@ -24,6 +24,17 @@ div.container a.ask:visited
 	text-align: center;
 
 }
+div.container a.fblogin:link,
+div.container a.fblogin:active,
+div.container a.fblogin:visited
+{
+	display: block;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:white;
+	text-align: center;
+}
 div.container a.ask:hover
 {
 	background-color: #171a1f;
