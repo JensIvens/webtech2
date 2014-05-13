@@ -2,12 +2,13 @@ extends layout
 
 block content
     header.bg-primary
-        h1 user.name 
+        h1 IMDWall - Ask 
     div.container        
         #ask
             form(role='form')
                 .form-group
                     label(for='nameField') Name:
+                    p.bg-danger
                     input#nameField.form-control(type='text', name='nameField', placeholder='Name:')
                 .form-group
                     label(for='exampleInputPassword1') Question:
